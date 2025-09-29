@@ -32,9 +32,9 @@ La web está dividida en **cuatro secciones** principales:
 ### 4. Lectura  
 - Listado de **7 tarjetas (cards)** con las novelas de **S. D. Perry** en el universo *Resident Evil*.  
 - Cada card muestra:  
-  - 📕 Título.  
-  - 📝 Volumen correspondiente.  
-  - 📖 Breve descripción.  
+  - Título.  
+  - Volumen correspondiente.  
+  - Breve descripción.  
 - Ordenadas por volumen de publicación:  
   1. *Hora Cero (Zero Hour)*  
   2. *La conspiración Umbrella (The Umbrella Conspiracy)*  
