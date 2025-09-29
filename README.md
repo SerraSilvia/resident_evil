@@ -11,6 +11,9 @@ La web está dividida en **cuatro secciones** principales:
 - Título central de la web.  
 - Estilo oscuro y atmosférico para dar inmersión al visitante.  
 
+![Inicio](./src/img/intro.png)
+
+
 ### 2. Videojuegos  
 - Línea de tiempo con **scroll horizontal**.  
 - Cada punto de la línea muestra:  
@@ -20,6 +23,8 @@ La web está dividida en **cuatro secciones** principales:
   - Breve sinopsis.  
 - Orden cronológico desde el primer *Resident Evil* hasta los más recientes.  
 
+![Inicio](./src/img/time_videoj.png)
+
 ### 3. Películas  
 - Sección similar a la de videojuegos, con **scroll horizontal**.  
 - Incluye:  
@@ -28,6 +33,8 @@ La web está dividida en **cuatro secciones** principales:
   - Póster.  
   - Breve sinopsis.  
 - Ordenadas cronológicamente según su estreno en cines o lanzamiento en plataformas.  
+
+![Inicio](./src/img/filmogr.png)
 
 ### 4. Lectura  
 - Listado de **7 tarjetas (cards)** con las novelas de **S. D. Perry** en el universo *Resident Evil*.  
@@ -44,7 +51,20 @@ La web está dividida en **cuatro secciones** principales:
   6. *Némesis*  
   7. *Código Verónica (Code: Veronica)*  
 
+  ![Inicio](./src/img/lectura.png)
+
 ---
+
+### 4. Footer
+- Muestra:
+    - Plataformas de videojuego
+    - Link a la página oficial
+    - Link a los juegos remake
+    - Link al último juego
+    - Portal oficial
+    - Redes sociales
+
+  ![Inicio](./src/img/foot.png)
 
 ## 🛠️ Tecnologías recomendadas  
 - **HTML5, CSS3, JavaScript, React**  
