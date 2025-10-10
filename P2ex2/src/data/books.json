@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "title": "Resident Evil: Hora Cero",
+      "year": 1998,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "El equipo Bravo de los S.T.A.R.S. investiga una serie de horribles asesinatos en Raccoon City. Durante su misión, el helicóptero en el que viajan se estrella, y deben enfrentarse a una pesadilla biológica desatada por la Corporación Umbrella."
+    },
+    {
+      "title": "Resident Evil: La Conspiración Umbrella",
+      "year": 1999,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "Jill Valentine y Chris Redfield investigan una serie de asesinatos en una mansión aislada. Descubren que la Corporación Umbrella está detrás de experimentos biológicos ilegales que han desatado un brote viral mortal."
+    },
+    {
+      "title": "Resident Evil: La Ensenada Calibán",
+      "year": 1999,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "Rebecca Chambers, sobreviviente del equipo Bravo, se une a una nueva misión para investigar una instalación secreta de Umbrella en la costa de Maine. Descubren una nueva amenaza biológica que pone en peligro a la humanidad."
+    },
+    {
+      "title": "Resident Evil: La Ciudad de los Muertos",
+      "year": 1999,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "Claire Redfield llega a Raccoon City en busca de su hermano Chris. Se encuentra atrapada en medio de un brote viral que convierte a los habitantes en zombis. Junto a Leon S. Kennedy, luchan por sobrevivir y descubrir la verdad detrás del brote."
+    },
+    {
+      "title": "Resident Evil: Inframundo",
+      "year": 2000,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "Umbrella ha perdido el control de sus instalaciones secretas. Tres laboratorios han sido destruidos, pero uno de los más elaborados está a punto de entrar en funcionamiento en el desierto del suroeste de EE. UU. Un grupo de antiguos miembros de los S.T.A.R.S. se enfrenta a esta nueva amenaza."
+    },
+    {
+      "title": "Resident Evil: Némesis",
+      "year": 2000,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "Jill Valentine lucha por escapar de Raccoon City mientras es perseguida por un monstruo letal conocido como Némesis. Mientras tanto, Umbrella despliega escuadras de mercenarios para recuperar pruebas de sus investigaciones ilegales."
+    },
+    {
+      "title": "Resident Evil: Código Verónica",
+      "year": 2001,
+      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "synopsis": "Claire Redfield busca a su hermano desaparecido y se enfrenta a las devastadoras armas biológicas de la Corporación Umbrella en una isla remota. Mientras tanto, Chris Redfield lucha contra Umbrella en su propia misión para detener sus experimentos ilegales."
+    }
+  ]
+}

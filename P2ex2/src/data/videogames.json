@@ -1,0 +1,82 @@
+{
+  "games": [
+    {
+      "title": "Resident Evil 0",
+      "year": 1998,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-0/",
+      "synopsis": "Sigue a Rebecca Chambers y al prisionero Billy Coen mientras investigan una instalación abandonada de Umbrella en las montañas Arklay."
+    },
+    {
+      "title": "Resident Evil",
+      "year": 1998,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil/",
+      "synopsis": "Un equipo de élite, S.T.A.R.S., se adentra en una mansión infestada de zombies y monstruos para investigar desapariciones misteriosas."
+    },
+    {
+      "title": "Resident Evil 3: Nemesis",
+      "year": 1998,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-3-nemesis/",
+      "synopsis": "Jill Valentine lucha por escapar de Raccoon City mientras es perseguida por Nemesis, una criatura biológica creada por Umbrella."
+    },
+    {
+      "title": "Resident Evil 2",
+      "year": 1998,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-2/",
+      "synopsis": "Leon S. Kennedy y Claire Redfield se encuentran atrapados en Raccoon City, enfrentándose a hordas de zombies y monstruos mutantes."
+    },
+    {
+      "title": "Resident Evil: Code Veronica",
+      "year": 1999,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-code-veronica/",
+      "synopsis": "Claire Redfield busca a su hermano Chris mientras enfrenta a la familia Ashford en una isla remota, desvelando secretos de Umbrella."
+    },
+    {
+      "title": "Resident Evil 4",
+      "year": 2004,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-4/",
+      "synopsis": "Leon S. Kennedy es enviado a una aldea en España para rescatar a la hija del presidente, enfrentándose a un culto y criaturas infectadas por Las Plagas."
+    },
+    {
+      "title": "Resident Evil 5",
+      "year": 2009,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-5/",
+      "synopsis": "Chris Redfield y Sheva Alomar investigan un brote viral en África, enfrentándose a criaturas infectadas y desvelando una conspiración detrás de la venta de armas biológicas."
+    },
+    {
+      "title": "Resident Evil: Revelations",
+      "year": 2012,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-revelations/",
+      "synopsis": "Jill Valentine y Chris Redfield investigan un barco abandonado en el mar Mediterráneo, enfrentándose a una nueva amenaza viral."
+    },
+    {
+      "title": "Resident Evil 6",
+      "year": 2012,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-6/",
+      "synopsis": "León S. Kennedy, Chris Redfield y Jake Muller se enfrentan a una nueva pandemia global, luchando contra criaturas mutantes y desvelando una conspiración que amenaza al mundo."
+    },
+    {
+      "title": "Resident Evil: Revelations 2",
+      "year": 2015,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-revelations-2/",
+      "synopsis": "Claire Redfield y Moira Burton son secuestradas y llevadas a una isla remota, enfrentándose a nuevas amenazas mientras intentan escapar."
+    },
+    {
+      "title": "Resident Evil 7: Biohazard",
+      "year": 2017,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-7-biohazard/",
+      "synopsis": "Ethan Winters busca a su esposa desaparecida en una mansión en Luisiana, enfrentándose a una familia infectada por un virus."
+    },
+    {
+      "title": "Resident Evil Village",
+      "year": 2021,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-village/",
+      "synopsis": "Ethan Winters busca a su hija en un pueblo remoto, enfrentándose a criaturas sobrenaturales y desvelando secretos oscuros relacionados con su pasado."
+    },
+    {
+      "title": "Resident Evil 9: Requiem",
+      "year": 2026,
+      "image": "https://www.playstation.com/es-mx/games/resident-evil-9-requiem/",
+      "synopsis": "Grace Ashcroft, hija de Alyssa Ashcroft, investiga una serie de asesinatos en Raccoon City, enfrentándose a su pasado y a nuevas amenazas biológicas."
+    }
+  ]
+}
