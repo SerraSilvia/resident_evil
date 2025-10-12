@@ -1,13 +1,17 @@
 import React from "react";
 
-class VideoJuego extends React.Component {
+class VideoGame extends React.Component {
   render() {
-    const { title, saga, year } = this.props;
+     const { year, image, title, synopsis } = this.props;
     return (
-      <div>
-        <h2>🎮 {title}</h2>
-        <p>Saga: {saga}</p>
-        <p>Año de lanzamiento: {year}</p>
+ <div className="game-card" style={{ marginBottom: "20px" }}>
+        <h2> {year}</h2>
+        <div>
+          <img src={image} alt={title} style={{ width: "200px", height: "auto", marginBottom: "10px" }}></img>
+          <h2> {title}</h2>
+          
+        </div>
+        <p>{synopsis}</p>
         <hr />
       </div>
     );
