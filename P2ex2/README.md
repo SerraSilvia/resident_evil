@@ -79,6 +79,9 @@ La web está dividida en **cuatro secciones** principales:
 - npm i
 - npm install pagepiling.js
 (PagePiling.js es una librería JavaScript (hecha con jQuery) que sirve para crear páginas web con efecto de scroll a pantalla completa, tipo presentación o secciones apiladas verticalmente.)
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+
 
 
 
