@@ -5,14 +5,10 @@ class Header extends React.Component {
     return (
       <header className="header">
         <nav>
-          <ul>
-            <li>
-              <a href="#home">Inicio</a>
-              <a href="">Videojuegos</a>
-              <a href="">Filmografia</a>
-              <a href="">Lectura</a>
-            </li>
-          </ul>
+          <a href="#home">INICIO</a>
+          <a href="#videojuegos">VIDEOJUEGOS</a>
+          <a href="#filmografia">FILMOGRAFIA</a>
+          <a href="#lectura">LECTURA</a>
         </nav>
       </header>
     );
