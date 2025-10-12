@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
 
-      <div>
+      <section>
         <h1>VIDEOJUEGOS</h1>
         {gamesData.games.map((game, index) => (
           <VideoGame
@@ -23,9 +23,9 @@ function App() {
             synopsis={game.synopsis}
           />
         ))}
-      </div>
+      </section>
 
-         <div>
+         <section>
         <h1>LECTURA</h1>
         {booksData.books.map((book, index) => (
           <Book
@@ -35,7 +35,7 @@ function App() {
             synopsis={book.synopsis}
           />
         ))}
-      </div>
+      </section>
 
     </>
   );
