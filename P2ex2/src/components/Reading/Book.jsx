@@ -10,7 +10,7 @@ class Book extends React.Component {
         <div className="flex items-center mb-4">
           <img
             alt={title}
-            className="w-[80px] h-[80px] object-cover rounded-lg"
+            className="w-[80px] h-[120px] object-cover rounded-lg"
             src={image}
           />
           <h3 className="ml-4">{title}</h3>
