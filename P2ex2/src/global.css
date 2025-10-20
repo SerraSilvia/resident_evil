@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: "ResidentEvil7";
-  src: url("public/fonts/ResidentEvil7.otf") format("opentype");
+  src: url("../public/fonts/residentEvil7.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
