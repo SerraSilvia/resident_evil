@@ -7,8 +7,8 @@ class Header extends React.Component {
         <nav>
           <a href="#home">INICIO</a>
           <a href="#videojuegos">VIDEOJUEGOS</a>
-          <a href="#filmografia">PELICULAS</a>
           <a href="#lectura">LIBROS</a>
+          <a href="#filmografia">PELICULAS</a>
         </nav>
       </header>
     );

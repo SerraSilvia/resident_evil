@@ -3,25 +3,25 @@
     {
       "title": "Resident Evil",
       "year": 2002,
-      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "image": "public/img/movies/resident-evil_1.jpg",
       "synopsis": "Alice (Milla Jovovich) se despierta sin recuerdos en una instalación secreta de la Corporación Umbrella, donde un virus mortal se ha liberado, convirtiendo a los empleados en zombis. Junto a un equipo de élite, debe escapar y detener la amenaza."
     },
     {
       "title": "Resident Evil: Apocalypse",
       "year": 2004,
-      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "image": "public/img/movies/resident-evil-2-apocalipsis.jpg",
       "synopsis": "Tras la liberación del virus T en Raccoon City, Alice se encuentra atrapada en la ciudad infestada de zombis. Con la ayuda de nuevos aliados, lucha por sobrevivir y desmantelar los planes de Umbrella."
     },
     {
       "title": "Resident Evil: Extinction",
       "year": 2007,
-      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "image": "public/img/movies/resident-evil-extincion.jpg",
       "synopsis": "El mundo ha sido devastado por el virus T. Alice, con habilidades mejoradas, lidera un grupo de sobrevivientes a través del desierto en busca de un refugio seguro, mientras lucha contra las fuerzas de Umbrella."
     },
     {
       "title": "Resident Evil: Afterlife",
       "year": 2010,
-      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "image": "public/img/movies/ultratumba.jpg",
       "synopsis": "Alice continúa su lucha contra la Corporación Umbrella, ahora enfrentándose a una nueva amenaza en una prisión convertida en refugio para sobrevivientes. Con la ayuda de viejos amigos, busca una forma de erradicar el virus de una vez por todas."
     },
     {
