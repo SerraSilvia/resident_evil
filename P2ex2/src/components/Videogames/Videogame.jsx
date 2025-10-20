@@ -13,7 +13,7 @@ class VideoGame extends React.Component {
         <div className="w-1 bg-gray-400 h-6 mb-2"></div>
 
         {/* Imagen + título: tamaño fijo, contenido adaptable */}
-        <div className="bg-gray-800/50 shadow-lg p-4 flex mb-2 w-full h-30	">
+        <div className="bg-gray-800/50 shadow-lg p-4 flex mb-2 w-full max-h-[137px] h-[137px]">
           <img
             alt={title}
             className="w-[100px] h-[100px] object-cover rounded-lg"
@@ -27,15 +27,15 @@ class VideoGame extends React.Component {
         {/* Línea vertical hasta la línea horizontal */}
         <div className="relative w-1 bg-gray-400 h-6 flex items-center justify-center">
           {/* Círculo naranja en el cruce */}
-          <span className="block w-4 h-4 border-2 border-orange-500 rounded-full bg-transparent absolute -top-2"></span>
+           <span className="block w-4 h-4 border-2 border-orange-500 rounded-full bg-transparent absolute -translate-y-1/2 top-5"></span>
         </div>
 
         {/* Línea vertical debajo del cruce hasta sinopsis */}
-        <div className="w-1 bg-gray-400 h-6 mb-2"></div>
+        <div className="w-1 bg-gray-400 h-6 mb-4"></div>
 
         {/* Sinopsis: tamaño fijo, contenido adaptativo */}
-        <div className="bg-gray-800/60  shadow-lg p-4 w-full h-30 overflow-hidden">
-          <p className="text-gray-300 text-sm text-center break-words overflow-auto">
+        <div className="bg-gray-800/60 shadow-lg p-4 w-full h-[150px] overflow-hidden">
+          <p className="text-gray-300 text-sm break-words overflow-auto text-justify">
             {synopsis}
           </p>
         </div>

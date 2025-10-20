@@ -52,3 +52,40 @@ header nav a {
 header nav a:hover {
   color: #ed7700; 
 }
+
+/* Global scrollbar (aplica a toda la app) */
+@layer base {
+  /* Firefox */
+  :root {
+    scrollbar-color: rgba(156,163,175,0.6) transparent; /* gray-400 @ 60% */
+  }
+  * {
+    scrollbar-width: thin;
+  }
+  /* WebKit */
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(156,163,175,0.6);
+    border-radius: 9999px;
+  }
+}
+
+/* (opcional) conserva tu utilidad por si quieres estilos distintos en algún contenedor */
+@layer utilities {
+  .scrollbar-thin-gray-60 {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(156,163,175,0.6) transparent;
+  }
+  .scrollbar-thin-gray-60::-webkit-scrollbar { height: 6px; width: 6px; }
+  .scrollbar-thin-gray-60::-webkit-scrollbar-track { background: transparent; }
+  .scrollbar-thin-gray-60::-webkit-scrollbar-thumb {
+    background-color: rgba(156,163,175,0.6);
+    border-radius: 9999px;
+  }
+}
