@@ -28,6 +28,8 @@ function App() {
         />
       </section>
 
+      {/* Videojuegos */}
+
       <section className="relative z-20 overflow-x-auto py-6 mx-12">
         <h1>VIDEOJUEGOS</h1>
 
@@ -50,20 +52,26 @@ function App() {
           ))}
         </div>
       </section>
+      {/* Libros */}
 
-      <section className="p-6 relative z-20">
-        <h1 className="text-3xl text-center mb-6">LECTURA</h1>
-        <div className="flex flex-wrap justify-center">
-          {booksData.books.map((book, index) => (
-            <Book
-              key={index}
-              image={book.image}
-              title={book.title}
-              synopsis={book.synopsis}
-            />
-          ))}
-        </div>
-      </section>
+<section className="p-6 relative z-20">
+  <h1>LIBROS</h1>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {booksData.books.map((book, index) => (
+      <Book
+        key={index}
+        image={book.image}
+        title={book.title}
+        synopsis={book.synopsis}
+      />
+    ))}
+  </div>
+</section>
+
+
+
+      {/* Películas */}
+
     </div>
   );
 }
