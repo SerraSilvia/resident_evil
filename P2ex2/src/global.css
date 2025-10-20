@@ -8,7 +8,25 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
-
+@font-face {
+  font-family: "ResidentEvil7";
+  src: url("public/fonts/ResidentEvil7.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: "ResidentEvil7", 'Roboto', sans-serif;
+  font-size: 75px;
+  text-shadow: 2px 2px 4px #000000;
+  /*padding: top right bottom left;*/
+  padding: 50px 0 70px 50px;
+}
+h3{
+  font-family: "ResidentEvil7", 'Roboto', sans-serif;
+  color: #ed7700;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 35px;
+}
 header {
   position: fixed;
   top: 0;
@@ -19,7 +37,8 @@ header {
   display: flex;
   justify-content: flex-end; 
   gap: 2rem;
-  font-weight: 700;               
+  font-weight: 700;   
+  font-size: 20px;          
 }
 
 

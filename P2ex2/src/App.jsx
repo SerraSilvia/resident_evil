@@ -28,11 +28,17 @@ function App() {
         />
       </section>
 
-      <section className="relative z-20 overflow-x-auto py-6">
+      <section className="relative z-20 overflow-x-auto py-6 mx-12">
+        <h1>VIDEOJUEGOS</h1>
+
         {/* Contenedor scroll horizontal */}
-  <div className="relative flex space-x-8 pb-8">
-    {/* Línea horizontal detrás de todas las tarjetas */}
-    <div className="absolute top-14 left-0 h-px bg-gray-400" style={{ width: `${gamesData.games.length * (288 + 48)}px` }}></div>
+        <div className="relative flex space-x-8 pb-16 max-w-[95%] mx-auto">
+          {/* Línea horizontal de fondo */}
+          <div
+            className="absolute top-60 left-0 h-0.5 bg-gray-400"
+            style={{ width: `${gamesData.games.length * (288 + 48)}px` }}
+          ></div>
+
           {gamesData.games.map((game, index) => (
             <VideoGame
               key={index}
