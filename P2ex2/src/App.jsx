@@ -28,12 +28,11 @@ function App() {
         />
       </section>
 
-      <section className="relative z-20 overflow-x-auto whitespace-nowrap py-6">
-        {/* Línea horizontal */}
-        <div className="absolute top-14 left-0 w-full h-px bg-gray-400"></div>
-
+      <section className="relative z-20 overflow-x-auto py-6">
         {/* Contenedor scroll horizontal */}
-        <div className="flex space-x-8 pb-8 relative z-10">
+  <div className="relative flex space-x-8 pb-8">
+    {/* Línea horizontal detrás de todas las tarjetas */}
+    <div className="absolute top-14 left-0 h-px bg-gray-400" style={{ width: `${gamesData.games.length * (288 + 48)}px` }}></div>
           {gamesData.games.map((game, index) => (
             <VideoGame
               key={index}

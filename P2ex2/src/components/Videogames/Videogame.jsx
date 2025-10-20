@@ -27,7 +27,7 @@ class VideoGame extends React.Component {
           </div>
 
           {/* Descripción debajo */}
-          <p className="text-gray-300 text-sm break-words">{synopsis}</p>
+          <p className="text-gray-300 text-sm break-words w-full min-w-0">{synopsis}</p>
         </div>
       </div>
     );
