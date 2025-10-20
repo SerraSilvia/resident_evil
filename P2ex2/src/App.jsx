@@ -11,6 +11,7 @@ import booksData from "./data/books.json";
 import Book from "./components/Reading/Book.jsx";
 import Movie from "./components/Movies/Movie.jsx";
 import moviesData from "./data/movies.json";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -54,19 +55,19 @@ function App() {
       </section>
       {/* Libros */}
 
-<section className="p-6 relative z-20">
-  <h1>LIBROS</h1>
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-    {booksData.books.map((book, index) => (
-      <Book
-        key={index}
-        image={book.image}
-        title={book.title}
-        synopsis={book.synopsis}
-      />
-    ))}
-  </div>
-</section>
+      <section className="p-6 relative z-20">
+        <h1>LIBROS</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {booksData.books.map((book, index) => (
+            <Book
+              key={index}
+              image={book.image}
+              title={book.title}
+              synopsis={book.synopsis}
+            />
+          ))}
+        </div>
+      </section>
 
       {/* Películas */}
 
@@ -92,7 +93,8 @@ function App() {
           ))}
         </div>
       </section>
-
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
