@@ -27,13 +27,13 @@
     {
       "title": "Resident Evil: Retribution",
       "year": 2012,
-      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "image": "public/img/movies/retribution.jpg",
       "synopsis": "Alice es capturada por Umbrella y llevada a una instalación subterránea donde se enfrenta a versiones alternativas de la ciudad infestada de zombis. Con la ayuda de nuevos aliados, lucha por escapar y destruir la corporación."
     },
     {
       "title": "Resident Evil: The Final Chapter",
       "year": 2016,
-      "image": "https://m.media-amazon.com/images/I/51w3g9Z9J0L._SX331_BO1,204,203,200_.jpg",
+      "image": "public/img/movies/final-chapter.jpg",
       "synopsis": "Alice regresa a Raccoon City para una confrontación final con la Corporación Umbrella. Enfrentándose a viejos enemigos y nuevos desafíos, lucha por salvar a la humanidad y poner fin al reinado del mal."
     }
   ]

@@ -9,8 +9,8 @@ import gamesData from "./data/games.json";
 import VideoGame from "./components/Videogames/Videogame.jsx";
 import booksData from "./data/books.json";
 import Book from "./components/Reading/Book.jsx";
-
-import Movie from "./data/movies.json";
+import Movie from "./components/Movies/Movie.jsx";
+import moviesData from "./data/movies.json";
 
 function App() {
   return (
@@ -68,8 +68,6 @@ function App() {
   </div>
 </section>
 
-
-
       {/* Películas */}
 
       <section className="relative z-20 overflow-x-auto py-6 mx-12">
@@ -80,16 +78,16 @@ function App() {
           {/* Línea horizontal de fondo */}
           <div
             className="absolute top-60 left-0 h-0.5 bg-gray-400"
-            style={{ width: `${gamesData.games.length * (288 + 48)}px` }}
+            style={{ width: `${moviesData.movies.length * (288 + 48)}px` }}
           ></div>
 
-          {gamesData.games.map((game, index) => (
-            <VideoGame
+          {moviesData.movies.map((movie, index) => (
+            <Movie
               key={index}
-              year={game.year}
-              title={game.title}
-              image={game.image}
-              synopsis={game.synopsis}
+              year={movie.year}
+              title={movie.title}
+              image={movie.image}
+              synopsis={movie.synopsis}
             />
           ))}
         </div>
