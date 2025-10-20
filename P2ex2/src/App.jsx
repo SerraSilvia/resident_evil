@@ -21,7 +21,7 @@ function App() {
       <Header />
       <audio src={backgroundAudio} autoPlay loop style={{ display: "none" }} />
 
-      <section className="flex flex-col justify-end items-center h-screen text-center relative z-20">
+      <section id="home" className="flex flex-col justify-end items-center h-screen text-center relative z-20">
         <img
           src={portada}
           alt="Portada"
@@ -31,7 +31,7 @@ function App() {
 
       {/* Videojuegos */}
 
-      <section className="relative z-20 overflow-x-auto py-6 mx-12">
+      <section id="videojuegos" className="relative z-20 overflow-x-auto py-6 mx-12">
         <h1>VIDEOJUEGOS</h1>
 
         {/* Contenedor scroll horizontal */}
@@ -55,7 +55,7 @@ function App() {
       </section>
       {/* Libros */}
 
-      <section className="p-6 relative z-20">
+      <section id="lectura" className="p-6 relative z-20">
         <h1>LIBROS</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {booksData.books.map((book, index) => (
@@ -71,7 +71,7 @@ function App() {
 
       {/* Películas */}
 
-      <section className="relative z-20 overflow-x-auto py-6 mx-12">
+      <section id="filmografia" className="relative z-20 overflow-x-auto py-6 mx-12">
         <h1>PELICULAS</h1>
 
         {/* Contenedor scroll horizontal */}
