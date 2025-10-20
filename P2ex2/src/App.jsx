@@ -1,5 +1,4 @@
 import React from "react";
-import './global.css';
 import portada from "./assets/portada.png";
 
 import Header from "./components/Header.jsx";
@@ -16,22 +15,25 @@ import Movie from "./data/movies.json";
 function App() {
   return (
     <div className="relative min-h-screen text-white">
-      <Background /> 
-      <Snowstorm /> 
-      <Header /> 
+      <Background />
+      <Snowstorm />
+      <Header />
       <audio src={backgroundAudio} autoPlay loop style={{ display: "none" }} />
 
-            <section className="flex flex-col justify-center items-center h-screen text-center relative z-20">
+      <section className="flex flex-col justify-end items-center h-screen text-center relative z-20">
         <img
           src={portada}
           alt="Portada"
-           className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-1/2 md:w-2/5 lg:w-1/3 rounded-lg shadow-lg animate-fade-in z-30"
+          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-2/3 max-w-lg rounded-lg shadow-lg animate-fade-in"
         />
       </section>
 
-      <section className="p-6 relative z-20">
-        <h1 className="text-3xl text-center mb-6">VIDEOJUEGOS</h1>
-        <div className="flex flex-wrap justify-center">
+      <section className="relative z-20 overflow-x-auto whitespace-nowrap py-6">
+        {/* Línea horizontal */}
+        <div className="absolute top-14 left-0 w-full h-px bg-gray-400"></div>
+
+        {/* Contenedor scroll horizontal */}
+        <div className="flex space-x-8 pb-8 relative z-10">
           {gamesData.games.map((game, index) => (
             <VideoGame
               key={index}
@@ -43,6 +45,7 @@ function App() {
           ))}
         </div>
       </section>
+
       <section className="p-6 relative z-20">
         <h1 className="text-3xl text-center mb-6">LECTURA</h1>
         <div className="flex flex-wrap justify-center">

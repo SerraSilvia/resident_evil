@@ -18,7 +18,8 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: flex-end; 
-  gap: 2rem;               
+  gap: 2rem;
+  font-weight: 700;               
 }
 
 
@@ -30,5 +31,5 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #e1bc19; 
+  color: #ed7700; 
 }

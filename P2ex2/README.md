@@ -82,6 +82,10 @@ La web está dividida en **cuatro secciones** principales:
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 
+#### Para ejecutar el proyecto en local:
+- Cambiar a carpeta donde está el proyecto: cd P2ex2
+- ejecutar npm run dev
+
 
 
 
